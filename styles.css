@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: Aspira, FreeSans, Arimo, Droid Sans, Helvetica, Arial, sans-serif;
+  line-height: 1.15;
+  color: #333;
+  vertical-align: baseline;
+}
+.hero h1{
+    font-size: 5.5rem;
+    font-weight: bolder;
+}
+ul {
+  list-style-type: none;
+}
+nav ul {
+  font-family: "ubuntu", sans-serif;
+  display: flex;
+  list-style-type: none;
+  
+}
+
+nav ul li {
+  padding: 15px 30px 4px 1px;
+}
+hr {
+  line-height: normal;
+  display: solid;
+  color: #eb7100;
+}
+
+.hero {
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  margin: 60px auto 10px;
+}
+
+.fcol {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero .title-copy {
+  font-size: 1.125rem;
+}
+.hero * {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 60px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  line-height: 1.2em;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+.screens {
+  overflow-x: hidden;
+}
+
+.frow {
+  display: flex;
+  flex-direction: row;
+}
+.screens .page-1 img {
+  margin-left: -20%;
+  transform: rotate(5deg);
+}
+.screens img {
+  position: relative;
+  box-shadow: 5px 5px 20px #ccc;
+  border-radius: 25px;
+  z-index: 2;
+  max-width: 100%;
+}
+.screens .page-2 img {
+  right: -20%;
+  transform: rotate(-3deg);
+}
+.frow {
+  display: flex;
+  flex-direction: row;
+}
+.middle {
+  text-align: center;
+  font-style: bold;
+}
+#btn {
+  background-color: #eb7100;
+  padding:20px;
+  border-radius: 8px;
+  color: #ccc;
+  border: none;
+  
+  
+}
+#login{
+    padding: 0;
+    border: none;
+    background: none;
+}
+#signup{
+    padding: 0;
+    border: none;
+    background: none;
+}
+.pg1 {
+  margin-left: 0px;
+}
+
+.highlights {
+  background: #f2f4f7;
+  width: 100%;
+  display: flex;
+  padding: auto;
+}
+.highlights .h-title {
+  color: #b65e1e;
+  font-size: 1.375rem;
+  font-weight: 500;
+  padding: auto;
+  line-height: normal;
+}
+
+.highlights li * {
+  margin-bottom: 20px;
+}
+
+
+
+li {
+  text-align: -webkit-match-parent;
+}
+#disclaimer {
+    /* text-align: center; */
+    padding: 10px;
+    margin: 0px 5px 5px 400px;
+    
+}
+.testimonials {
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 100px;
+}
+.testimonials .wrap-3 {
+    justify-content: space-between;
+}
+
+.wrap-3 {
+    flex-wrap: wrap;
+}
+.frow {
+    display: flex;
+    flex-direction: row;
+}.testimonials .box {
+    background: #f2f4f7;
+    padding: 20px;
+    width: calc(33% - 15px);
+    min-height: 300px;
+    border-radius: 16px;
+}
+.testimonials .copy {
+    margin-bottom: auto;
+    padding: 15px 0;
+    font-size: 1.125rem;
+}
+.testimonials .student div:not(.name) {
+    color: #667085;
+}
+
+.testimonials .student .fcol {
+    justify-content: space-evenly;
+    height: 100%;
+    margin-left: 10px;
+}
+.employers {
+    background: #f2f4f7;
+    padding: 40px;
+}
+.fcol {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.employers{
+    padding: 50px;
+    margin: 40px;
+    justify-content: center;
+    text-align: center;
+    line-height: 5px;
+}
+#login{
+    padding: 10px 8px 4px 1px;
+}
+.emp{
+    padding-left: 350px;
+    text-size-adjust:5px;
+}
+#featured-skills {
+    padding: 40px 50px 10px 50px;
+    margin: 50px;
+}
+#featured-skills .wrap-3 {
+    justify-content: space-between;
+}
+.wrap-3 {
+    flex-wrap: wrap;
+}
+#featured-skills .box {
+    border: 1px solid #eaecf0;
+    padding: 20px;
+    width: calc(33% - 15px);
+    min-height: 300px;
+}
+#featured-skills .copy {
+    margin-bottom: auto;
+    padding-bottom: 10px;
+}
+.bton {
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    border: 2px solid #eb7100;
+    background: #eb7100;
+    color: #fff;
+    border-radius: 8px;
+    height: 60px;
+    line-height: 33px;
+    font-size: 1.125rem;
+    padding: 0 40px;
+    outline: none;
+    font-weight: 500;
+}
+.paths {
+    margin: 40px 0;
+    padding: 15px;
+}
+.paths .typeforms>a {
+    width: calc(33% - 15px);
+    margin: 15px 0;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 11px 11px 22px #d9d9d9, -11px -11px 22px #fff;
+    overflow: hidden;
+}.paths .skill-pill {
+    background: #f2f4f7;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: .625rem;
+    margin-right: 10px;
+    flex: 0 0 auto;
+    max-width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.paths .typeforms {
+    justify-content: space-between;
+}
+.paths .copy {
+    padding: 10px;
+}
+.paths .copy .salary {
+    color: #b65e1e;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.paths .copy span {
+    color: #667085;
+}
+.paths .pills {
+    margin: 20px 0 10px;
+    justify-content: space-evenly;
+}
+
+.C-chegg-footer {
+    margin: 40px 0;
+}.C-chegg-footer nav {
+    display: flex;
+    padding: 30px 30px 0;
+    margin: 0 auto;
+    max-width: 1024px;
+    border-top: 1px solid #ddd;
+    text-align: justify;
+}.C-chegg-footer nav>div[class*=col-] {
+    border-right: 1px solid #ccc;
+    font-size: 12px;
+    padding: 10px;
+}.C-chegg-footer nav ul li {
+    line-height: 1.3;
+    list-style: none;
+    text-orientation:inherit;
+    display: flex;
+}
+.C-chegg-footer nav ul{
+    display: inline;
+}
+li {
+    text-align: -webkit-match-parent;
+}.C-chegg-footer nav ul li a {
+    text-decoration: none;
+    font-size: 12px;
+}
+.C-chegg-footer nav h4, .C-chegg-footer nav a {
+    color: #555;
+    font-size: 1rem;
+}
+nav ul {
+    font-family: "ubuntu", sans-serif;
+    display: flex;
+    list-style-type: none;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ol, ul {
+    padding-left: 2rem;
+}
+.chgg-hdr .idc-search {
+    position: relative;
+    margin: 0 10px;
+}
+form.idc-search {
+    display: inline-block;
+    text-align: right;
+    margin: 0;
+    float: right;
+    position: relative;
+}
+.navbar li{
+    font-size: 0.7rem;
+    padding:
+
+}
